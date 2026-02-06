@@ -2,15 +2,19 @@
 
 from collections import defaultdict
 from features import extract_features
-import functools
 
-@functools.lru_cache(maxsize=1)
-def compute_domain_stats(transcript_hash):
+
+def compute_domain_stats(transcripts):
     domain_data = defaultdict(list)
 
     for t in transcripts:
-        feats = extract_features(t)
-        domain = t["domain"]
+        feats = t["features"]
+
+        domain = t.get("domain", "Unknown")
+
+        # ensure domain is hashable
+        if isinstance(domain, list):
+            domain = ", ".join(domain)
 
         domain_data[domain].append(feats)
 

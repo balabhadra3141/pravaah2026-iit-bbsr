@@ -6,7 +6,7 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 
 class TranscriptRetriever:
-    def __init__(self, data_path="data/transcripts.json"):
+    def __init__(self, data_path="data/enriched_transcripts.json"):
         self.model = SentenceTransformer("all-MiniLM-L6-v2")
 
         with open(data_path, "r") as f:

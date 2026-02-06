@@ -19,7 +19,10 @@ query = st.text_input("Ask an analytical question:")
 if st.button("Analyze") and query:
 
     # Run pipeline (memory handled internally)
-    response = st.session_state.pipeline.run_query(query)
+    # response = st.session_state.pipeline.run_query(query)
+
+    with st.spinner("Analyzing conversations..."):
+        response = st.session_state.pipeline.run_query(query)
 
     # Save messages for UI display
     st.session_state.messages.append(("User", query))
