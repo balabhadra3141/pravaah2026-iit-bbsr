@@ -1,0 +1,10 @@
+streamlit
+sentence-transformers
+faiss-cpu
+transformers
+torch
+numpy
+ollama
+numpy
+pandas
+matplotlib
