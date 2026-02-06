@@ -1,5 +1,3 @@
-# pipeline.py
-
 import json
 from retriever import TranscriptRetriever
 from reasoning import ReasoningEngine
@@ -23,10 +21,10 @@ class CausalPipeline:
 
     def run_query(self, query):
 
-        # 1. Retrieve transcripts
+        # Retrieve transcripts
         retrieved, call_ids = self.retriever.search(query)
 
-        # 2. Build causal evidence
+        # Build causal evidence
         evidence_bundle = []
 
         for t in retrieved:
@@ -38,10 +36,10 @@ class CausalPipeline:
                 "features": t.get("features", {})
             })
 
-        # 3. Memory context
+        # Memory context
         chat_context = self.memory.get_chat_context()
 
-        # 4. Generate explanation (TEXT ONLY)
+        # Generate explanation (TEXT ONLY)
         answer = self.reasoner.generate_explanation(
             query=query,
             transcripts=retrieved,
@@ -50,7 +48,7 @@ class CausalPipeline:
             domain_stats=self.domain_stats
         )
 
-        # 5. Update memory
+        # Update memory
         self.memory.update(query, answer, call_ids)
 
         return answer

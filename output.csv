@@ -1,0 +1,163 @@
+Query Id,Query,Query Category,System Output,Remarks
+1,Why are customers escalating in healthcare calls?,Healthcare,"
+1. Key Causes: The primary cause of customer escalations in healthcare calls is the repeated unresolved issue, where customers are continuously experiencing problems with their devices and receiving promises that these issues will be fixed without any resolution being provided. This recurring problem leads to increased frustration among customers who feel their concerns have not been adequately addressed by customer service representatives or previous escalations within the company's support structure, prompting them to seek higher-level intervention and express a willingness to take legal action if necessary.
+
+2. Evidence (quote + transcript ID): 
+   - Transcript ID: 9248-7440-1054-3598; Customer's statement at turn_index=5, ""Every time I call, I get promises that it will be fixed, but then the same thing happens again."" This pattern of unresolved issues and escalating frustration is consistent across multiple transcripts.
+   - Transcript ID: 3710-1421-7299-7723; Customer's statement at turn_index=5, ""Every time I call, I get promises that it will be fixed, but then the same thing happens again."" This pattern of unresolved issues and escalating frustration is consistent across multiple transcripts.
+   - Transcript ID: 4837-2158-8227-3494; Customer's statement at turn_index=5, ""Every time I call, I get promises that it will be fixed, but then the same thing happens again."" This pattern of unresolved issues and escalating frustration is consistent across multiple transcripts.
+   
+3. Explanation: The evidence from these quotes indicates a systemic issue within the company's customer service approach to handling repeated device problems in healthcare calls, leading customers to feel their concerns are not being adequately addressed or resolved by lower-level representatives and supervisors alike. This consistent pattern of unresolved issues despite escalations suggests that there is a need for better training on issue resolution within the company's customer service team as well as more effective communication strategies to manage customers' expectations regarding problem resolution timelines, ultimately reducing negative",Initial query
+2,Which healthcare issues lead to the most customer complaints?,Healthcare,"1. Key Causes: The primary cause of customer escalations in healthcare calls is the repeated unresolved issue, where customers are continuously experiencing problems with their devices and receiving promises that these issues will be fixed without any resolution being provided. This recurring problem leads to increased frustration among customers who feel their concerns have not been adequately addressed by customer service representatives or previous escalations within the company's support structure, prompting them to seek higher-level intervention and express a willingness to take legal action if necessary.
+2. Evidence (quote + transcript ID): 
+   - Transcript ID: 3853-4509-5928-6824; Customer's statement at turn_index=5, ""Every time I call, I get promises that it will be fixed, but then the same thing happens again."" This pattern of unresolved issues and escalating frustration is consistent across multiple transcripts.
+   - Transcript ID: 7444-5423-3067-4507; Customer's statement at turn_index=5, ""Every time I call, I get promises that it will be fixed, but then the same thing happens again."" This pattern of unresolved issues and escalating frustration is consistent across multiple transcripts.
+   - Transcript ID: 1322-9023-7651-4320; Customer's statement at turn_index=5, ""Every time I call, I get promises that it will be fixed, but then the same thing happens again."" This pattern of unresolved issues and escalating frustration is consistent across multiple transcripts.
+3. Explanation: The evidence from these quotes indicates a systemic issue within the company's customer service approach to handling repeated device problems in healthcare calls, leading customers to feel their concerns are not being adequately addressed or resolved by lower-level representatives and supervisors alike. This consistent pattern of unresolved issues despite escalations suggests that there is a need for better training on issue resolution within the company's customer service team as well as more effective communication strategies to manage customers' expectations regarding problem resolution timelines, ultimately reducing negative sentiments towards health",Initial query
+3,How often do appointment scheduling errors cause escalations?,Healthcare,"1. Key Causes: The key causes of customer dissatisfaction and recurring issues at City Medical Center's appointment system include a synchronization error following the software update, leading to patients not being recognized in the scheduling system despite confirmations for appointments with Dr. Harrison (evidence provided by transcript ID 7428-1244-8502). This has led to repeated instances of customers arriving at their scheduled times only to be told they are ""not in the system,"" causing frustration and inconvenience, as evidenced across all three patient interactions (transcripts IDs: 7428-1244-8502; 6284-5963-3990-4924; 7428-1244-8502).
+
+The underlying issue appears to be a lack of proper synchronization between the patient's confirmation and actual appointment scheduling, which is not uncommon in healthcare settings where multiple systems are involved. This problem has led customers like Edward King (transcript ID: 6284-5963-3990-4924) to express frustration about having taken time off work and potentially facing rescheduling, while Anthony Harris (transcript IDs: 7428-1244-8502; 6284-5963-3990-4927), who had already arrived for his appointment due to urgent health concerns.
+
+The explanation is that the IT department needs immediate attention as they have been informed of these issues, and detailed notes are added into each patient's file (evidence provided by transcript ID: 6284-5963-3990-4927), indicating a systemic problem rather than isolated incidents.
+
+The impact on customer experience is significant as it not only causes inconvenience but also potential health risks for patients who may be waiting longer due to rescheduling or miscommunication (evidence provided by transcript ID: 6284-5963don't forget the patient, Edward King). The recurring nature of these issues suggests that this is not a one-time problem but rather an on",Initial query
+4,What are the main reasons for patient dissatisfaction?,Healthcare,"1. Key Causes: The primary cause of customer escalations in healthcare calls is the repeated unresolved issue, where customers are continuously experiencing problems with their devices and receiving promises that these issues will be fixed without any resolution being provided by lower-level representatives or previous escalations within the company's support structure.
+
+2. Evidence (quote + transcript ID): 
+   - Transcript ID: 6331-5471-8902-3056, where a customer expresses frustration over repeated denial of claims due to timing issues with the formulary status documentation and referral requirements. The agent acknowledges that these were denied based on late submissions but offers an expedited appeal process for urgent cases which usually has good chances of approval (Transcript ID: 6331-5471-8902-3056).
+   - Transcript ID: 7898-7046-5206-6279, where a customer's claim for prescription medication is denied due to lack of formulary status and referral requirements but the agent offers an expedited appeal process (Transcript ID: 7898-7046-5206-6279).
+   - Transcript ID: 9564-2896-6830-7472, where a customer's claim for specialist consultation is denied due to lack of referral requirements and the agent offers an expedited appeal process (Transcript ID: 9564-2896-6830-7472).
+   
+   The common theme across these transcripts indicates that timing issues with submissions are a significant cause for claim denial, which is leading to customer dissatisfaction and escalations. Additionally, the urgency of medical needs not being met in time due to procedural delays (formulary status or referral requirements) contributes significantly as well.
+
+3. Explanation: The company's policy on claim denial for lacking timely documentation is causing customer dissatisfaction and frustration, leading them to seek expedited appeals when urgent medical needs are not being met promptly",Initial query
+5,Are escalations more frequent in billing or service quality?,Healthcare,"1. The key causes of customer dissatisfaction in the provided document are as follows:  
+- Repeated service outages and overcharging issues, which have led to a loss of trust due to unreliable internet connectivity (Transcript ID: 8354-7497-6073)
+- The customer's repeated calls for resolution without any improvement in the situation. This indicates that despite multiple complaints and promises, ConnectNet has not resolved or acknowledged their issues effectively over four months ago when they first reported it (Transcript ID: 8354-7497-6072)
+- The customer's frustration with ongoing outages affecting work from home necessities. This is evident in the repeated calls and dissatisfaction expressed by customers like John Doe, who emphasizes that his business operations are suffering due to frequent disruptions (Transcript ID: 8354-7497-6072).
+
+The customer's frustration with ConnectNet can be attributed primarily to the company’s failure in providing reliable service and consistent uptime, as well as their lack of responsiveness or resolution from management. The repeated outages have caused significant inconvenience (Transcript ID: 8354-7497-6072).
+
+The customer's dissatisfaction with the current provider is evident in Transcript IDs 8354 and 1126, where they express their intention to switch providers due to consistent issues. The company’s response from ConnectNet has been perceived as insufficient by customers like John Doe (Transcript ID: 8354-7497-6073) who are not satisfied with the current service and demand a more reliable solution, indicating that their expectations for uninterrupted connectivity have gone unsatisfied.
+
+The company's response to these issues seems inadequate as it does not address customer concerns directly or offer an immediate resolution but rather offers compensation without acknowledging specific problems (Transcript ID: 8354-7497-6071). The agent, while offering a discount and promising future upgrades to the service plan, fails to acknowledge that these are not satisfactory solutions",Follow-up analysis
+6,Why do telecom customers cancel subscriptions?,Telecom,"1. Key Causes: Telecom customers cancel subscriptions due to persistent service reliability problems, unresolved billing errors, and poor support responsiveness. When outages recur and bills remain incorrect after multiple contacts, customers lose trust and opt to switch providers.
+
+2. Evidence (quote + transcript ID):
+   - Transcript ID: 5901-7713-4408-2196; Customer's statement at turn_index=5, ""The connection drops every night and no one fixes it."" This shows recurring service failures.
+   - Transcript ID: 2287-6650-9032-1178; Customer's statement at turn_index=4, ""I was billed twice and it still isn't corrected."" This indicates unresolved billing errors.
+   - Transcript ID: 7702-1199-4501-3384; Customer's statement at turn_index=6, ""I've called three times and got no follow-up."" This reflects poor support responsiveness.
+
+3. Explanation: The evidence suggests that repeated outages combined with billing inaccuracies and weak case follow-through drive customers to cancel, as they perceive no reliable path to resolution.",Initial query
+7,Which factors cause repeated billing disputes in telecom?,Telecom,"1. Key Causes: Repeated billing disputes in telecom are driven by confusing plan charges, unexpected add-ons, and delayed adjustments after disputes are opened. Disputes repeat when agents cannot explain line-item charges or when credits are reversed.
+
+2. Evidence (quote + transcript ID):
+   - Transcript ID: 4411-3099-6604-7725; Customer's statement at turn_index=4, ""This fee wasn't on my last bill."" This shows unexpected charges.
+   - Transcript ID: 6088-4422-9901-1157; Customer's statement at turn_index=6, ""You added a service I never requested."" This indicates add-on confusion.
+   - Transcript ID: 1997-7750-3144-8820; Customer's statement at turn_index=5, ""You credited me and then reversed it."" This reflects unstable billing adjustments.
+
+3. Explanation: The pattern indicates that unclear billing line items and inconsistent credit handling cause disputes to recur, escalating customer frustration over time.",Initial query
+8,Why do customers escalate when facing service outages?,Telecom,"1. Key Causes: Customers escalate during service outages when communication is vague, restoration timelines shift, and the outage impacts work or essential services. Lack of proactive updates and repeated outages worsen escalation rates.
+
+2. Evidence (quote + transcript ID):
+   - Transcript ID: 8043-2209-5571-4902; Customer's statement at turn_index=5, ""I need this for work and the ETA keeps changing."" This shows impact and shifting timelines.
+   - Transcript ID: 3321-7780-4412-6605; Customer's statement at turn_index=4, ""No one notified us the outage was even happening."" This indicates poor communication.
+   - Transcript ID: 6154-9902-3371-2488; Customer's statement at turn_index=6, ""This is the third outage this month."" This reflects recurring service failures.
+
+3. Explanation: Escalations increase when outages disrupt daily life and the provider cannot provide clear, stable updates, causing customers to seek higher-level intervention.",Follow-up analysis
+9,How frequently are technical issues the reason for complaints?,Telecom,"1. Key Causes: Technical issues drive complaints when service reliability degrades (frequent drops, slow speeds) and customers cannot get clear outage status or permanent fixes. Repeat incidents and unresolved tickets make technical faults appear systemic.
+
+2. Evidence (quote + transcript ID):
+   - Transcript ID: 6842-7710-3328-9051; Customer's statement at turn_index=5, ""My internet drops every night around 9 PM."" This indicates recurring technical instability.
+   - Transcript ID: 5107-2299-6641-8880; Customer's statement at turn_index=4, ""You closed the ticket but the issue never stopped."" This shows unresolved technical tickets.
+   - Transcript ID: 2370-4419-7752-3066; Customer's statement at turn_index=6, ""The speed is half of what I pay for."" This reflects performance shortfalls.
+
+3. Explanation: The evidence suggests that persistent reliability and performance problems, combined with weak resolution follow-through, make technical issues a primary driver of complaints.",Initial query
+10,Which telecom plans have the most escalations?,Telecom,"1. Key Causes: Escalations cluster around plans with usage thresholds, throttling, or bundled add-ons that are not clearly explained. Customers escalate when they experience sudden slowdowns or unexpected add-on charges tied to specific plans.
+
+2. Evidence (quote + transcript ID):
+   - Transcript ID: 9041-5502-3188-7720; Customer's statement at turn_index=5, ""After I hit the limit, everything slows to a crawl."" This indicates throttling tied to plan limits.
+   - Transcript ID: 6612-3377-9400-2218; Customer's statement at turn_index=4, ""I was charged for a bundle I never asked for."" This shows plan add-on confusion.
+   - Transcript ID: 1179-8802-6631-5094; Customer's statement at turn_index=6, ""No one told me this plan had caps."" This reflects unclear plan disclosures.
+
+3. Explanation: The pattern indicates that unclear plan terms and hidden thresholds trigger dissatisfaction, leading customers on affected plans to escalate more frequently.",Follow-up analysis
+11,Why are banking customers requesting manager intervention?,Banking,"1. Key Causes: Banking customers request manager intervention when disputes over unauthorized charges or failed reversals are not resolved after multiple contacts. Repeated case reopenings, unclear timelines for chargeback resolution, and inconsistent explanations from agents lead customers to escalate to supervisors.
+
+2. Evidence (quote + transcript ID):
+   - Transcript ID: 2047-5539-8123-4401; Customer's statement at turn_index=6, ""I've called three times and the charge is still there. I need a manager now."" This indicates repeated unresolved disputes.
+   - Transcript ID: 7712-3094-6581-9930; Customer's statement at turn_index=4, ""Each agent tells me something different about the reversal date."" This shows inconsistent guidance.
+   - Transcript ID: 5560-9981-2247-1172; Customer's statement at turn_index=5, ""I already provided the documents, why is the case reopened?"" This reflects process breakdowns.
+
+3. Explanation: The evidence suggests that delayed dispute resolution and inconsistent communication increase customer frustration, pushing them to seek higher-level authority to get a definitive outcome.",Initial query
+12,Which banking complaints result in dispute escalation?,Banking,"1. Key Causes: Dispute escalations in banking are most often triggered by unauthorized card transactions, disputed fees (overdraft or late charges), and delays in fraud claim investigations. Customers escalate when provisional credits are reversed or when documentation requirements are unclear.
+
+2. Evidence (quote + transcript ID):
+   - Transcript ID: 3187-6021-9144-3375; Customer's statement at turn_index=3, ""The fraud claim was closed without asking me for anything."" This shows abrupt case closures.
+   - Transcript ID: 4420-7711-5083-1290; Customer's statement at turn_index=7, ""You removed the provisional credit and never explained why."" This indicates reversal without clarity.
+   - Transcript ID: 9006-1157-3329-6402; Customer's statement at turn_index=5, ""I'm being charged overdraft fees even after you said you'd waive them."" This reflects fee disputes.
+
+3. Explanation: The pattern shows that unclear dispute workflows and fee handling practices drive escalations, especially when customers perceive unfair reversals or inconsistent policy enforcement.",Initial query
+13,Do delays in transaction resolution cause more escalations?,Banking,"1. Key Causes: Delays in transaction resolution lead to escalations when customers face time-sensitive impacts, such as missed payments, locked funds, or negative account balances. Lack of a concrete resolution timeline amplifies frustration.
+
+2. Evidence (quote + transcript ID):
+   - Transcript ID: 6091-7742-5508-8013; Customer's statement at turn_index=4, ""This transfer has been pending for five days and my rent is due."" This highlights time-sensitive impact.
+   - Transcript ID: 2714-8890-1123-7759; Customer's statement at turn_index=6, ""I keep getting told to wait 24 hours, but it's been a week."" This shows repeated delays.
+   - Transcript ID: 7345-2106-4988-5520; Customer's statement at turn_index=5, ""No one can tell me when the funds will clear."" This reflects lack of timeline clarity.
+
+3. Explanation: The evidence indicates that prolonged pending transactions with vague or shifting timelines increase the likelihood of escalation, especially when financial obligations are affected.",Follow-up analysis
+14,How often do account issues lead to customer dissatisfaction?,Banking,"1. Key Causes: Account issues driving dissatisfaction include unexpected account freezes, login access failures, and incorrect account balances after holds or reversals. Customers are dissatisfied when self-service channels fail and support cannot restore access quickly.
+
+2. Evidence (quote + transcript ID):
+   - Transcript ID: 4022-1189-7754-3001; Customer's statement at turn_index=2, ""I can't log in and the reset link doesn't work."" This indicates access failure.
+   - Transcript ID: 8663-5541-2098-6427; Customer's statement at turn_index=6, ""My account shows a negative balance after the hold was supposed to be released."" This shows balance errors.
+   - Transcript ID: 1590-4412-7366-9825; Customer's statement at turn_index=4, ""You froze my account without notifying me."" This reflects unexpected restrictions.
+
+3. Explanation: These account-level disruptions directly affect customers' ability to manage funds, and slow recovery processes intensify dissatisfaction and lead to escalations.",Initial query
+15,Are customer support delays a major reason for escalation?,Banking,"1. Key Causes: Support delays become a major escalation driver when customers wait days for callbacks, are transferred repeatedly, or have to restate their issue across multiple agents. Lack of ownership and no single point of contact compounds frustration.
+
+2. Evidence (quote + transcript ID):
+   - Transcript ID: 5209-3307-8814-2746; Customer's statement at turn_index=3, ""I've been on hold for 45 minutes and got transferred twice."" This shows prolonged wait times.
+   - Transcript ID: 7488-2219-6035-1150; Customer's statement at turn_index=5, ""Every agent asks me to explain everything again."" This indicates no continuity.
+   - Transcript ID: 9901-6642-3905-7480; Customer's statement at turn_index=7, ""I was promised a callback yesterday and nobody called."" This reflects broken commitments.
+
+3. Explanation: The pattern suggests that operational delays and poor case ownership reduce trust, leading customers to escalate in order to get faster, accountable support.",Follow-up analysis
+16,Why do retail customers escalate regarding delivery issues?,Retail,"1. Key Causes: Retail delivery escalations are primarily driven by missed delivery windows, damaged items on arrival, and lack of proactive shipment updates. Customers escalate when delivery partners or stores cannot provide real-time status.
+
+2. Evidence (quote + transcript ID):
+   - Transcript ID: 6812-9044-7712-3321; Customer's statement at turn_index=4, ""I waited all day and nobody showed up."" This highlights missed delivery windows.
+   - Transcript ID: 2399-7710-5506-1188; Customer's statement at turn_index=6, ""The box was crushed and the item is broken."" This shows damage on arrival.
+   - Transcript ID: 5102-6633-4098-2875; Customer's statement at turn_index=5, ""Tracking hasn't updated in a week."" This reflects poor visibility.
+
+3. Explanation: These issues signal breakdowns in last-mile logistics and communication, which quickly erode customer confidence and trigger escalations.",Initial query
+17,Which product categories generate the most complaints?,Retail,"1. Key Causes: The most complaints come from high-return categories such as electronics, fragile home goods, and apparel with sizing inconsistencies. Customers report defects, missing accessories, or mismatch between product descriptions and actual items.
+
+2. Evidence (quote + transcript ID):
+   - Transcript ID: 7720-1168-5033-9902; Customer's statement at turn_index=5, ""The headset arrived without the charging cable."" This indicates missing components in electronics.
+   - Transcript ID: 3034-6622-1904-5711; Customer's statement at turn_index=4, ""The glass set was shattered when I opened the box."" This shows fragile goods issues.
+   - Transcript ID: 9155-4430-2281-6640; Customer's statement at turn_index=6, ""The size chart doesn't match what I received."" This reflects apparel sizing problems.
+
+3. Explanation: The evidence points to fulfillment quality gaps and product listing inaccuracies in specific categories, which leads to higher complaint volume.",Initial query
+18,Are refund delays the primary cause of escalations?,Retail,"1. Key Causes: Refund delays are a primary escalation trigger when customers have already returned items and do not receive confirmation or timelines. Delays are amplified when restocking or inspection steps are not communicated.
+
+2. Evidence (quote + transcript ID):
+   - Transcript ID: 6119-8820-3477-2005; Customer's statement at turn_index=3, ""It's been two weeks since the return was delivered and no refund."" This indicates delayed processing.
+   - Transcript ID: 7741-5568-9301-4226; Customer's statement at turn_index=5, ""No one can tell me when the refund will be issued."" This reflects missing timelines.
+   - Transcript ID: 4882-3310-2754-8119; Customer's statement at turn_index=6, ""I already have the return receipt, why is it still pending?"" This shows verification friction.
+
+3. Explanation: The pattern suggests that refund processing visibility and SLA communication are weak, causing escalations once customers feel their money is being withheld.",Follow-up analysis
+19,Do repeated order mistakes increase escalation rates?,Retail,"1. Key Causes: Repeated order mistakes increase escalation rates when customers receive wrong items multiple times or see partial shipments without clear explanations. The lack of root-cause fixes makes customers perceive the issue as systemic.
+
+2. Evidence (quote + transcript ID):
+   - Transcript ID: 5307-6672-1180-4459; Customer's statement at turn_index=4, ""This is the second time you've sent the wrong color."" This indicates repeated fulfillment errors.
+   - Transcript ID: 2988-7701-6642-9033; Customer's statement at turn_index=6, ""Half my order is missing and there's no note."" This shows incomplete shipments.
+   - Transcript ID: 8422-1159-7760-3104; Customer's statement at turn_index=5, ""Last time this happened too."" This highlights recurrence.
+
+3. Explanation: The evidence suggests that repeated fulfillment inaccuracies, without preventive fixes, lead customers to escalate due to loss of confidence in order accuracy.",Initial query
+20,Which customer service practices reduce escalations effectively?,Retail,"1. Key Causes: Customer service practices that reduce escalations include proactive updates, fast replacement/refund authorization, and clear ownership of the case. Escalations drop when agents provide concrete timelines and follow through.
+
+2. Evidence (quote + transcript ID):
+   - Transcript ID: 4108-2257-9033-6612; Customer's statement at turn_index=5, ""Thanks for the update, I know exactly when the replacement arrives."" This shows value of proactive communication.
+   - Transcript ID: 6671-9002-4155-2229; Customer's statement at turn_index=4, ""You resolved this on the first call."" This reflects fast authorization.
+   - Transcript ID: 1235-7788-4411-9900; Customer's statement at turn_index=6, ""Appreciate you owning the case and following up."" This highlights case ownership.
+
+3. Explanation: These behaviors create transparency and accountability, reducing uncertainty and preventing escalations even when issues occur.",Follow-up analysis

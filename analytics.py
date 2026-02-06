@@ -1,5 +1,3 @@
-# analytics.py
-
 from collections import defaultdict
 from features import extract_features
 

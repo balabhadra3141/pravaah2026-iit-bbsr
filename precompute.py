@@ -1,8 +1,5 @@
-# precompute.py
-
 import json
 from features import extract_features
-
 
 def precompute_features(input_file, output_file):
     with open(input_file) as f:

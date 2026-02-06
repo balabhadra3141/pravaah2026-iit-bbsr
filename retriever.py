@@ -1,5 +1,3 @@
-# retriever.py
-
 import json
 import faiss
 import numpy as np
@@ -33,4 +31,4 @@ class TranscriptRetriever:
         call_ids = [r["transcript_id"] for r in results]
 
         return results, call_ids
-
+    

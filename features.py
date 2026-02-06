@@ -1,5 +1,3 @@
-# features.py
-
 from transformers import pipeline
 
 # Load sentiment model once (important)
