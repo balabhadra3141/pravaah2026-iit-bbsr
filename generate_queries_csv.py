@@ -38,7 +38,7 @@ queries = [
 ]
 
 # Output CSV file
-output_file = "hackathon_queries.csv"
+output_file = "output/queries_output.csv"
 
 # Open CSV file and write results
 with open(output_file, "w", newline="", encoding="utf-8") as f:

@@ -24,11 +24,12 @@ pravaah2026-iit-bbsr/
 ├── causal.py                 # Detect causal patterns
 ├── memory.py                 # Multi-turn chat memory
 ├── data/                     # JSON transcripts
-├── models/                   # Offline LLMs / embeddings
+├── models/                   # Offline LLMs/embeddings
+├── output                    # contains outputs of system required for judgement
 ├── precompute.py             # Optional preprocessing scripts
 ├── generate_queries_csv.py   # Automates generating Output csv file of different queries
 ├── hackathon_queries.csv     # output csv file of different domain queries
-├── output.csv                # A copy/backup of hackathon_queries.csv
+├── output.csv                # A copy/backup of queries_output.csv
 ├── README.md
 ├── requirements.txt
 └── pycache_/                 # Auto-generated Python cache
@@ -104,6 +105,19 @@ The system will automatically use the online API if the key is detected.
 streamlit run app.py
 ```
 
+---
+## Repository & Running Ports
+
+- **GitHub Repository:** [https://github.com/balabhadra3141/pravaah2026-iit-bbsr](https://github.com/yourusername/causal-conversation-analyzer)
+
+- **Default Ports:**
+  - **Ollama API / Local LLM:** `http://localhost:11434`  
+    *(Ensure Ollama is running and Phi3 model is loaded)*
+  - **Streamlit App:** `http://localhost:8501`  
+
+> Tip: First start Ollama to serve the model if running offline, then run the Streamlit app. The app will connect to Ollama on port 11434 to generate explanations.
+
+---
 ## Usage
 
 Type an analytical query in the chat box, for example:
@@ -131,16 +145,3 @@ Ask follow-up queries; the system remembers prior chat context and responds acco
 - Structured outputs referencing transcript IDs
 - Fully reproducible environment (offline and online LLM support)
 
-
----
-
-## Repository & Running Ports
-
-- **GitHub Repository:** [https://github.com/balabhadra3141/pravaah2026-iit-bbsr](https://github.com/yourusername/causal-conversation-analyzer)
-
-- **Default Ports:**
-  - **Ollama API / Local LLM:** `http://localhost:11434`  
-    *(Ensure Ollama is running and Phi3 model is loaded)*
-  - **Streamlit App:** `http://localhost:8501`  
-
-> Tip: First start Ollama to serve the model if running offline, then run the Streamlit app. The app will connect to Ollama on port 11434 to generate explanations.
