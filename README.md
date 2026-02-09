@@ -108,7 +108,7 @@ streamlit run app.py
 ---
 ## Repository & Running Ports
 
-- **GitHub Repository:** [https://github.com/balabhadra3141/pravaah2026-iit-bbsr](https://github.com/yourusername/causal-conversation-analyzer)
+- **GitHub Repository:** [https://github.com/balabhadra3141/pravaah2026-iit-bbsr](https://github.com/balabhadra3141/causal-conversation-analyzer)
 
 - **Default Ports:**
   - **Ollama API / Local LLM:** `http://localhost:11434`  
