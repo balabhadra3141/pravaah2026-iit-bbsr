@@ -1,14 +1,28 @@
-from transformers import pipeline
+import os
 
-# Load sentiment model once (important)
-sentiment_model = pipeline(
-    "sentiment-analysis",
-    model="distilbert-base-uncased-finetuned-sst-2-english"
-)
+_SENTIMENT_MODEL = None
+
+
+def _get_sentiment_model():
+    if os.getenv("SKIP_SENTIMENT", "0") == "1":
+        return None
+
+    global _SENTIMENT_MODEL
+    if _SENTIMENT_MODEL is None:
+        from transformers import pipeline
+        _SENTIMENT_MODEL = pipeline(
+            "sentiment-analysis",
+            model="distilbert-base-uncased-finetuned-sst-2-english",
+        )
+    return _SENTIMENT_MODEL
 
 
 def get_sentiment_score(text):
-    result = sentiment_model(text[:512])[0]
+    model = _get_sentiment_model()
+    if model is None:
+        return 0.0
+
+    result = model(text[:512])[0]
 
     if result["label"] == "NEGATIVE":
         return -result["score"]

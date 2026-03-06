@@ -1,1 +1,34 @@
+# Environment / secrets
 *.env
+apikey.env
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Virtual environments
+myenv/
+.venv/
+venv/
+
+# Generated outputs / artifacts
+*.log
+
+# Retriever cache
+data/embeddings.npy
+data/faiss.index
+data/retriever_cache.json
+
+# Local model weights (large, machine-specific)
+models/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

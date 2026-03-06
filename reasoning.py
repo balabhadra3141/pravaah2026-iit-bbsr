@@ -1,13 +1,22 @@
 # // OFFLINE VIA LOCAL MODEL OLLAMA PHI3
 
 import requests
+from requests.exceptions import RequestException
+
 
 class ReasoningEngine:
     def __init__(self, model="phi3"):
         self.model = model
+        self.base_url = "http://localhost:11434"
+
+    def is_ollama_running(self):
+        try:
+            response = requests.get(f"{self.base_url}/api/tags", timeout=1)
+            return response.status_code == 200
+        except RequestException:
+            return False
 
     def build_context(self, transcripts):
-
         context = ""
 
         for t in transcripts:
@@ -19,10 +28,20 @@ class ReasoningEngine:
 
         return context
 
-    def generate_explanation(self, query, transcripts, chat_history="", feature_summary=None, domain_stats=None,):
+    def generate_explanation(
+        self,
+        query,
+        transcripts,
+        chat_history="",
+        feature_summary=None,
+        domain_stats=None,
+    ):
+        if not self.is_ollama_running():
+            raise RuntimeError(
+                "Ollama is not running. Start it with `ollama serve` and pull the `phi3` model."
+            )
 
         context = self.build_context(transcripts)
-        allowed_ids = [t["transcript_id"] for t in transcripts]
 
         prompt = f"""
             You are a causal conversation analyst.
@@ -55,7 +74,7 @@ class ReasoningEngine:
             """
 
         response = requests.post(
-            "http://localhost:11434/api/generate",
+            f"{self.base_url}/api/generate",
             json={
                 "model": self.model,
                 "prompt": prompt,

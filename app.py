@@ -17,6 +17,16 @@ else:
 if "pipeline" not in st.session_state:
     st.session_state.pipeline = CausalPipeline()
 
+# Startup check for Ollama
+if "ollama_checked" not in st.session_state:
+    st.session_state.ollama_ok = st.session_state.pipeline.reasoner.is_ollama_running()
+    st.session_state.ollama_checked = True
+
+if not st.session_state.ollama_ok:
+    st.warning(
+        "Ollama isn't running. Start it with `ollama serve` and ensure the `phi3` model is pulled."
+    )
+
 # Display existing chat messages
 for msg in st.session_state.messages:
     with st.chat_message(msg["role"]):
@@ -34,7 +44,11 @@ if query:
     # Generate assistant response
     with st.chat_message("assistant"):
         with st.spinner("Analyzing transcripts..."):
-            response = st.session_state.pipeline.run_query(query)
+            try:
+                response = st.session_state.pipeline.run_query(query)
+            except RuntimeError as e:
+                response = str(e)
+                st.error(response)
 
         st.markdown(response)
 
